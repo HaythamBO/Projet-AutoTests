@@ -1,6 +1,5 @@
 package com.example.projetstage.model;
 
-<<<<<<< HEAD
 import jakarta.persistence.*;
 
 import java.util.Date;
@@ -22,7 +21,8 @@ public class TestHistory {
     private User user;
 
     // Constructors
-    public TestHistory() {}
+    public TestHistory() {
+    }
 
     public TestHistory(Long id,
                        Date dateTest,
@@ -66,7 +66,4 @@ public class TestHistory {
     public void setUser(User user) {
         this.user = user;
     }
-=======
-public class TestHistory {
->>>>>>> origin/master
 }
